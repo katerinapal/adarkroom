@@ -1,3 +1,16 @@
+import "..\\lib\\jquery.event.swipe.js";
+import jqueryeventswipe_$ from "..\\lib\\jquery.event.swipe.js";
+import "..\\lib\\jquery.event.move.js";
+import jqueryeventmove_$ from "..\\lib\\jquery.event.move.js";
+import "..\\lib\\jquery.color-2.1.2.min.js";
+import jquerycolor212min_$ from "..\\lib\\jquery.color-2.1.2.min.js";
+import { Outside } from ".\\outside.js";
+import { Notifications } from ".\\notifications.js";
+import { Engine } from ".\\engine.js";
+import { Button } from ".\\Button.js";
+import { World } from ".\\world.js";
+import { Room } from ".\\room.js";
+import { Path } from ".\\path.js";
 /**
  * Module that handles the random event system
  */

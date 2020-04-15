@@ -1,3 +1,11 @@
+import "..\\..\\lib\\jquery.event.swipe.js";
+import jqueryeventswipe_$ from "..\\..\\lib\\jquery.event.swipe.js";
+import "..\\..\\lib\\jquery.event.move.js";
+import jqueryeventmove_$ from "..\\..\\lib\\jquery.event.move.js";
+import "..\\..\\lib\\jquery.color-2.1.2.min.js";
+import jquerycolor212min_$ from "..\\..\\lib\\jquery.color-2.1.2.min.js";
+import { Events } from "..\\events.js";
+import { World } from "..\\world.js";
 /**
  * Events that can occur when wandering around the world
  **/

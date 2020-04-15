@@ -1,4 +1,18 @@
-var World = {
+import "..\\lib\\jquery.event.swipe.js";
+import jqueryeventswipe_$ from "..\\lib\\jquery.event.swipe.js";
+import "..\\lib\\jquery.event.move.js";
+import jqueryeventmove_$ from "..\\lib\\jquery.event.move.js";
+import "..\\lib\\jquery.color-2.1.2.min.js";
+import jquerycolor212min_$ from "..\\lib\\jquery.color-2.1.2.min.js";
+import { Notifications } from ".\\notifications.js";
+import { Events } from ".\\events.js";
+import { Engine } from ".\\engine.js";
+import { Button } from ".\\Button.js";
+import { Ship } from ".\\ship.js";
+import { Room } from ".\\room.js";
+import { Path } from ".\\path.js";
+
+export var World = {
 	
 	RADIUS: 30,
 	VILLAGE_POS: [30, 30],

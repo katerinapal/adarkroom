@@ -1,4 +1,19 @@
-var Engine = {
+import "..\\lib\\jquery.event.swipe.js";
+import jqueryeventswipe_$ from "..\\lib\\jquery.event.swipe.js";
+import "..\\lib\\jquery.event.move.js";
+import jqueryeventmove_$ from "..\\lib\\jquery.event.move.js";
+import "..\\lib\\jquery.color-2.1.2.min.js";
+import jquerycolor212min_$ from "..\\lib\\jquery.color-2.1.2.min.js";
+import { Outside } from ".\\outside.js";
+import { Notifications } from ".\\notifications.js";
+import { Events } from ".\\events.js";
+import { oldIE } from "..\\index.js";
+import { Ship } from ".\\ship.js";
+import { Room } from ".\\room.js";
+import { Path } from ".\\path.js";
+var swipeElement;
+
+export var Engine = {
 		
 	/* TODO *** MICHAEL IS A LAZY BASTARD AND DOES NOT WANT TO REFACTOR ***
 	 * Here is what he should be doing:
